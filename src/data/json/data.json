@@ -1,0 +1,66 @@
+{
+    "accounts": [
+        {
+            "id": "acc_001",
+            "name": "Monzo Account",
+            "type": "bank",
+            "provider": "Monzo",
+            "balance": 2500.00,
+            "interestRate": 0.01
+        },
+        {
+            "id": "acc_002",
+            "name": "Savings Account",
+            "type": "savings",
+            "provider": "Monzo",
+            "balance": 10000.00,
+            "interestRate": 0.02
+        },
+        {
+            "id": "acc_003",
+            "name": "Investment Account",
+            "type": "investment",
+            "provider": "chip",
+            "balance": 5000.00
+        }
+    ],
+    "incomes": [
+        {
+            "id": "inc_001",
+            "name": "Monthly Salary",
+            "amount": 4000.00,
+            "frequency": "monthly",
+            "accountId": "acc_001"
+        }
+    ],
+    "expenses": [
+        {
+            "id": "exp_001",
+            "name": "Rent",
+            "amount": 1200.00,
+            "frequency": "monthly",
+            "accountId": "acc_001"
+        },
+        {
+            "id": "exp_002",
+            "name": "Utilities",
+            "amount": 150.00,
+            "frequency": "monthly",
+            "accountId": "acc_001"
+        },
+        {
+            "id": "exp_003",
+            "name": "Gym Membership",
+            "amount": 50.00,
+            "frequency": "monthly",
+            "accountId": "acc_001"
+        },
+        {
+            "id": "exp_004",
+            "name": "Spotify Subscription",
+            "amount": 10.00,
+            "frequency": "monthly",
+            "accountId": "acc_001"
+        }
+    ]
+}
