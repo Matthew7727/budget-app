@@ -63,6 +63,14 @@
             "provider": "nationwide",
             "balance": 456.88,
             "interestRate": 4.89
+        },
+        {
+            "id": "acc_009",
+            "name": "Investments",
+            "type": "investments",
+            "provider": "Monzo",
+            "balance": 204.57,
+            "interestRate": 4.37
         }
     ],
     "incomes": [
