@@ -2,26 +2,67 @@
     "accounts": [
         {
             "id": "acc_001",
-            "name": "Monzo Account",
-            "type": "bank",
+            "name": "Max Account",
+            "type": "debit",
             "provider": "Monzo",
-            "balance": 2500.00,
-            "interestRate": 0.01
+            "balance": 2068.36,
+            "interestRate": 4.35
         },
         {
             "id": "acc_002",
-            "name": "Savings Account",
+            "name": "Instant Access Savings Account",
             "type": "savings",
-            "provider": "Monzo",
-            "balance": 10000.00,
-            "interestRate": 0.02
+            "provider": "Chip",
+            "balance": 321.83,
+            "interestRate": 3.75
         },
         {
             "id": "acc_003",
-            "name": "Investment Account",
-            "type": "investment",
-            "provider": "chip",
-            "balance": 5000.00
+            "name": "Stocks and Shares ISA",
+            "type": "investments",
+            "provider": "Chip",
+            "balance": 206.33,
+            "interestRate": 25.2
+        },
+        {
+            "id": "acc_004",
+            "name": "Lifetime ISA",
+            "type": "savings",
+            "provider": "Moneybox",
+            "balance": 728.65,
+            "interestRate": 5
+        },
+        {
+            "id": "acc_005",
+            "name": "Gold Card",
+            "type": "credit",
+            "provider": "amex",
+            "balance": -743.68,
+            "interestRate": 0
+        },
+        {
+            "id": "acc_006",
+            "name": "Platinm Cashback Card",
+            "type": "credit",
+            "provider": "amex",
+            "balance": 0.00,
+            "interestRate": 0
+        },
+        {
+            "id": "acc_007",
+            "name": "Flex",
+            "type": "credit",
+            "provider": "Monzo",
+            "balance": 0.00,
+            "interestRate": 0
+        },
+        {
+            "id": "acc_008",
+            "name": "FlexDirect",
+            "type": "debit",
+            "provider": "nationwide",
+            "balance": 456.88,
+            "interestRate": 4.89
         }
     ],
     "incomes": [

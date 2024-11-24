@@ -22,8 +22,17 @@ export interface Expense {
     frequency: string
     accountId: string
 }
-export interface FinanceState {
-    accounts: Account[];
-    incomes: Income[];
-    expenses: Expense[];
+export type Accounts = Account[]
+export interface AccountFilterCriteria {
+    accountType: string[]
+    accountProvider: string[]
+}
+
+export interface AccountState {
+    accounts: Accounts;
+    filterCriteria: AccountFilterCriteria;
   }
+
+  export type Incomes = Income[]
+export type Expenses = Expense[]
+
